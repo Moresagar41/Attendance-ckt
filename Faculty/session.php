@@ -14,4 +14,3 @@ if(!isset($login_session)){
 mysqli_close($connection); // Closing Connection
 header('Location: Index.php'); // Redirecting To Home Page
 }
-?>

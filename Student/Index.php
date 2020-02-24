@@ -30,7 +30,7 @@ include('connect.php');
 	 <link href="Assests/dropdown.css" rel="stylesheet">
 
 
-    <title>Goa University</title>
+    <title></title>
 
     <!-- Bootstrap core CSS -->
     <link href="Assests/css/bootstrap.min.css" rel="stylesheet">
@@ -88,7 +88,7 @@ include('connect.php');
           <!-- Include submenu.html here -->
 
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-          <h5 style="font-family: Trebuchet MS;">WELCOME TO GOA UNIVERSITY</h5>
+          <h5 style="font-family: Trebuchet MS;">WELCOME TO PORTAL</h5>
 
 		  <div style="background-color:;">
           <section class="row text-center placeholders">

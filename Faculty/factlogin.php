@@ -55,7 +55,7 @@ div.container {
 <div align="center">
 
 <img src="goa-logo.png" class="login-logo" alt="attendance" style="width:80px;height:110px;">
-<a class="navbar-brand">GOA UNIVERSITY</a><br><br>
+<a class="navbar-brand">Attendance Manager</a><br><br>
 <div class="container" align="center">
 		<header align="center">
             <h2  align="center">FACULTY lOGIN</h2>

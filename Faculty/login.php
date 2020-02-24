@@ -21,7 +21,7 @@ $username = mysqli_real_escape_string($connection,$username);
 $password = mysqli_real_escape_string($connection,$password);
 // Selecting Database
 $db = mysqli_select_db($connection,"ams");
-// SQL query to fetch information of registerd users and finds user match.
+// //SQL query to fetch information of registerd users and finds user match.
 $query = mysqli_query($connection,"select * from facultylogin where password='$password' AND username='$username'");
 $rows = mysqli_num_rows($query);
 if ($rows == 1) {

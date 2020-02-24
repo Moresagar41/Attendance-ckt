@@ -72,7 +72,7 @@ include 'Lab_Attendance.php';
 	
 	
 	/*else
-		$checkbox2=$_POST['checkbox2'];
+		//$checkbox2=$_POST['checkbox2'];
 		foreach($_POST['checkbox2'] as $check2) {
 
 			echo $check2;

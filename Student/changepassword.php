@@ -27,7 +27,7 @@ div.container{
 }
 
 <style>
- /* define a fixed width for the entire menu */   //
+ /* define a fixed width for the entire menu */  
 .navigation {
   width: 300px;
 }
@@ -110,7 +110,7 @@ list-style-type: circle;
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 	  	<img src="goa-logo.png" alt="attendance" style="width:40px;height:50px;" align="left">&nbsp;
 
-        <a class="navbar-brand" href="">GOA UNIVERSITY</a>
+        <a class="navbar-brand" href="">Attendance Manager</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
