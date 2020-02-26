@@ -214,12 +214,12 @@ include('session.php');
 			  ?>
 			</div>
             </div>
-            <div class="col-6 col-sm-3 placeholder">
+           <!-- <div class="col-6 col-sm-3 placeholder">
 			<div class="DataImage">
-				<img src="Assests/3.jpg" alt="attendance" style="width:90px;">
+				<img src="Assests/3.jpg" alt="attendance" style="width:90px;"> 
 
 				<?php 
-				$login=$login_session;
+				/*$login=$login_session;
 
 				$fact="select fact_id,dept_name from facultylogin where username='$login'";
 				$s=mysqli_query($connection,$fact);
@@ -305,13 +305,13 @@ include('session.php');
 				else{
 					echo "<br>Total Hours<br>";
 					echo "0";
-				}
+				}*/
 			  ?>
-            </div>
+            <!--</div>
 			</div>
 			<?php
 				
-		  ?>
+		  ?> -->
           </section>
 		  
 		  

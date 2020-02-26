@@ -120,7 +120,7 @@ table{
 			echo "&nbsp;&nbsp;&nbsp; To: ";
 			echo $max;
 			echo "</h5><br>";
-			echo"<table border='2' style='font-size:18px;'>";
+			echo"<table border='1' style='font-size:14px;'>";
 			echo"<th>Roll No</th>";
 			$n=mysqli_num_rows($res4);
 			for($i=0;$i<$n;$i++){
