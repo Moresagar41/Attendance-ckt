@@ -26,7 +26,7 @@ include('connect.php');
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="Assests/images/favicon.ico">
+    <link rel="icon" href="Assests/images/attendance-icon.png">
 	 <link href="Assests/dropdown.css" rel="stylesheet">
 
 

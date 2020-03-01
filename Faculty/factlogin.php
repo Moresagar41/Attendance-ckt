@@ -54,7 +54,7 @@ div.container {
 <body background="background.jpg" style="font-family: Trebuchet MS;">
 <div align="center">
 
-<img src="goa-logo.png" class="login-logo" alt="attendance" style="width:80px;height:110px;">
+
 <a class="navbar-brand">Attendance Manager</a><br><br>
 <div class="container" align="center">
 		<header align="center">

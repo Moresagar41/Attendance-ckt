@@ -101,7 +101,7 @@ include('session.php');
 
 			//Update from database
 
-			function update_form(update_id){
+			/*function update_form(update_id){
 
 				var update_form = document.getElementById('update_form'+update_id);
 
@@ -118,7 +118,7 @@ include('session.php');
 				update_form.reset();
 
 				return false;
-			}
+			}*/
 
 
 		</script>

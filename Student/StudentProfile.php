@@ -248,8 +248,15 @@ include('session.php');
 			  echo number_format("$per",2)."%<br>";
 			  }
 				else{
+					$total="select Total_Classes,Present_Count  from attendance where stud_id=$stud_id and course_id='$course_id' and sub_id='$sub'";
+			  $que=mysqli_query($connection,$total);
+			  $row4 = mysqli_fetch_assoc($que);
+
+			  $total=$row4['Total_Classes'];
+			  $present=$row4['Present_Count'];
 					 echo"<br>Attendance Percentage<br>";
-					 echo "0";
+					 $per=(($present/$total)*100);
+					 echo $per;
 				}
 
 			  ?>
