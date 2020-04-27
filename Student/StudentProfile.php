@@ -24,7 +24,7 @@ include('session.php');
   <body style="font-family:Verdana;font-size:16px;">
     <header>
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-	  	<img src="goa-logo.png" alt="attendance" style="width:40px;height:50px;" align="left">&nbsp;
+	  	<img src="logo.png" alt="attendance" style="width:40px;height:50px;" align="left">&nbsp;
 
         <a class="navbar-brand" href="">Attendance Manager</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -248,15 +248,8 @@ include('session.php');
 			  echo number_format("$per",2)."%<br>";
 			  }
 				else{
-					$total="select Total_Classes,Present_Count  from attendance where stud_id=$stud_id and course_id='$course_id' and sub_id='$sub'";
-			  $que=mysqli_query($connection,$total);
-			  $row4 = mysqli_fetch_assoc($que);
-
-			  $total=$row4['Total_Classes'];
-			  $present=$row4['Present_Count'];
 					 echo"<br>Attendance Percentage<br>";
-					 $per=(($present/$total)*100);
-					 echo $per;
+					 echo "0";
 				}
 
 			  ?>
